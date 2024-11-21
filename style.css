@@ -71,7 +71,7 @@ body {
 
 .cloud {
   animation-name: cloud-move;
-  animation-duration: 3s;
+  animation-duration: 6s;
   animation-direction: right;
   animation-fill-mode: backwards;
   animation-delay: 0;
@@ -98,6 +98,7 @@ body {
 @keyframes drive {
   0% {
     left: -50px;
+    top: -20px;
   }
   48% {
     top: -15px;
@@ -112,15 +113,13 @@ body {
     left: 120vw;
   }
 }
-@keyframes mario-jump {
-}
 @keyframes cloud-move {
   0% {
-    right: 0px;
+    right: 100px;
   }
 
   100% {
-    right: 300px;
+    right: 600px;
   }
 }
 @keyframes lines-move {
@@ -131,7 +130,6 @@ body {
     left: -600px;
   }
 }
-
 @keyframes luigidrive {
   0% {
     left: -50px;
